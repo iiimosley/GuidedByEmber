@@ -1,3 +1,16 @@
-<h1>Yeeeaahh Doggy</h1>
-
-{{outlet}}
+<div class="container">
+  <div class="menu">
+    {{#link-to "index"}}
+    <h1>
+      <em>Welcome to Nashville</em>
+    </h1>
+    {{/link-to}}
+    <div class="links">
+      {{#link-to "restaurants" class="menu-restaurants"}} Restaurants {{/link-to}} {{#link-to "outdoors" class="menu-outdoors"}}
+      Outdoors {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
