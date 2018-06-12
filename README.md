@@ -13,9 +13,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-test`
-* `npm install`
+* `git clone https://github.com/iiimosley/GuidedByEmber.git && cd $_ && npm i`
 
 ## Running / Development
 
